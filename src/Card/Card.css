@@ -1,0 +1,212 @@
+.card {
+    display: inline-block;
+    width: 3.3em;
+    height: 4.6em;
+    position: relative;
+    border: 1px solid #666;
+    border-radius: .3em;
+    padding: .25em;
+    margin: 0 .5em .5em 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: .2em .2em .5em #333;
+    vertical-align: top;
+}
+
+.card .rank,
+.card .suit {
+    display: block;
+    line-height: 1;
+    text-align: left;
+}
+.card .rank {
+}
+.card .suit {
+    line-height: .7;
+}
+
+.back {
+    text-indent: -4000px;
+    background: #ccc 0 0 url(data:image/gif;base64,R0lGODlhJAAkAJEAAOjFsezdztOKbL5QKCH5BAAAAAAALAAAAAAkACQAAAL/HC4RAqm/mmLHyHmAbczB11Ea8ombJKSgKo6Z17pXFznmS1JptiX0z3vVhpEKDoUIkoa0olGIUeZUk1RI6Yn2mh/FDAt6frOrRRTqXPpsVLYugzxaVy+YcBdnoWPZOT0E4eckQtZFZBjWoHixQFWl6Nhol6R2p1Okt5TGaEWZA6fjiMdhZgPHeWrTWGVq+jTZg1HYyAEWKLYzmyiGKoUimilz+YYryyTlg5RcDJSAbNx0Q7lMcbIGEyzTK8zVdfVaImzs/QV+prYqWWW2ObkoOApM/Em/rUlIm7fijs8a2EEKEaZ3AsMUgneEU6RcpJbZ27aGHkAO2Ors8xQH1IR0Bn5YnOtVAAA7) repeat !important;
+}
+
+ .card.spades {
+    color: #059 !important;
+}
+
+ .card.rank-4.spades .suit:after {
+    content: "\2660\00A0\00A0\2660 \A\2660\00A0\2660\00A0\2660 \A\2660\00A0\00A0\2660";
+}
+
+.card.diams {
+    color: #f00 !important;
+}
+.card.diams {
+    color: #00f !important;
+}
+[lang=de] .playingCards.fourColours .card.diams {
+    color: #f60 !important;
+}
+.card.hearts {
+    color: #f00 !important;
+}
+.card.spades {
+    color: #000 !important;
+}
+[lang=de] .playingCards.fourColours .card.spades {
+    color: #090 !important;
+}
+.card.clubs {
+    color: #000 !important;
+}
+.card.clubs {
+    color: #090 !important;
+}
+[lang=de] .playingCards.fourColours .card.clubs {
+    color: #000 !important;
+}
+.playingCards .card.joker {
+    color: #000 !important;
+}
+.playingCards .card.joker.big {
+    color: #f00 !important;
+}
+
+.card.rank-2.diams .suit:after {
+    content: "\2666 \A\A\2666";
+}
+.card.rank-3.diams .suit:after {
+    content: "\2666 \A\2666 \A\2666";
+}
+.card.rank-4.diams .suit:after {
+    content: "\2666\00A0\00A0\00A0\2666 \A\A\2666\00A0\00A0\00A0\2666";
+}
+.card.rank-5.diams .suit:after {
+    content: "\2666\00A0\00A0\00A0\2666 \A\2666 \A\2666\00A0\00A0\00A0\2666";
+}
+.card.rank-6.diams .suit:after {
+    content: "\2666\00A0\00A0\00A0\2666 \A\2666\00A0\00A0\00A0\2666 \A\2666\00A0\00A0\00A0\2666";
+}
+.card.rank-7.diams .suit:after {
+    content: "\2666\00A0\00A0\2666 \A\2666\00A0\2666\00A0\2666 \A\2666\00A0\00A0\2666";
+}
+.card.rank-8.diams .suit:after {
+    content: "\2666\00A0\2666\00A0\2666 \A\2666\00A0\00A0\2666 \A\2666\00A0\2666\00A0\2666";
+}
+.card.rank-9.diams .suit:after {
+    content: "\2666\00A0\2666\00A0\2666 \A\2666\00A0\2666\00A0\2666 \A\2666\00A0\2666\00A0\2666";
+}
+.card.rank-10.diams .suit:after {
+    content: "\2666\00A0\2666\00A0\2666 \A\2666\00A0\2666\00A0\2666\00A0\2666 \A\2666\00A0\2666\00A0\2666";
+}
+
+/* hearts */
+.card.rank-2.hearts .suit:after {
+    content: "\2665 \A\A\2665";
+}
+.card.rank-3.hearts .suit:after {
+    content: "\2665 \A\2665 \A\2665";
+}
+.card.rank-4.hearts .suit:after {
+    content: "\2665\00A0\00A0\00A0\2665 \A\A\2665\00A0\00A0\00A0\2665";
+}
+.card.rank-5.hearts .suit:after {
+    content: "\2665\00A0\00A0\00A0\2665 \A\2665 \A\2665\00A0\00A0\00A0\2665";
+}
+.card.rank-6.hearts .suit:after {
+    content: "\2665\00A0\00A0\00A0\2665 \A\2665\00A0\00A0\00A0\2665 \A\2665\00A0\00A0\00A0\2665";
+}
+.card.rank-7.hearts .suit:after {
+    content: "\2665\00A0\00A0\2665 \A\2665\00A0\2665\00A0\2665 \A\2665\00A0\00A0\2665";
+}
+.card.rank-8.hearts .suit:after {
+    content: "\2665\00A0\2665\00A0\2665 \A\2665\00A0\00A0\2665 \A\2665\00A0\2665\00A0\2665";
+}
+.card.rank-9.hearts .suit:after {
+    content: "\2665\00A0\2665\00A0\2665 \A\2665\00A0\2665\00A0\2665 \A\2665\00A0\2665\00A0\2665";
+}
+.card.rank-10.hearts .suit:after {
+    content: "\2665\00A0\2665\00A0\2665 \A\2665\00A0\2665\00A0\2665\00A0\2665 \A\2665\00A0\2665\00A0\2665";
+}
+
+/* spades */
+.card.rank-2.spades .suit:after {
+    content: "\2660 \A\A\2660";
+}
+.card.rank-3.spades .suit:after {
+    content: "\2660 \A\2660 \A\2660";
+}
+.card.rank-4.spades .suit:after {
+    content: "\2660\00A0\00A0\00A0\2660 \A\A\2660\00A0\00A0\00A0\2660";
+}
+.card.rank-5.spades .suit:after {
+    content: "\2660\00A0\00A0\00A0\2660 \A\2660 \A\2660\00A0\00A0\00A0\2660";
+}
+.card.rank-6.spades .suit:after {
+    content: "\2660\00A0\00A0\00A0\2660 \A\2660\00A0\00A0\00A0\2660 \A\2660\00A0\00A0\00A0\2660";
+}
+.card.rank-7.spades .suit:after {
+    content: "\2660\00A0\00A0\2660 \A\2660\00A0\2660\00A0\2660 \A\2660\00A0\00A0\2660";
+}
+.card.rank-8.spades .suit:after {
+    content: "\2660\00A0\2660\00A0\2660 \A\2660\00A0\00A0\2660 \A\2660\00A0\2660\00A0\2660";
+}
+.card.rank-9.spades .suit:after {
+    content: "\2660\00A0\2660\00A0\2660 \A\2660\00A0\2660\00A0\2660 \A\2660\00A0\2660\00A0\2660";
+}
+.card.rank-10.spades .suit:after {
+    content: "\2660\00A0\2660\00A0\2660 \A\2660\00A0\2660\00A0\2660\00A0\2660 \A\2660\00A0\2660\00A0\2660";
+}
+
+/* clubs */
+.card.rank-2.clubs .suit:after {
+    content: "\2663 \A\A\2663";
+}
+.card.rank-3.clubs .suit:after {
+    content: "\2663 \A\2663 \A\2663";
+}
+.card.rank-4.clubs .suit:after {
+    content: "\2663\00A0\00A0\00A0\2663 \A\A\2663\00A0\00A0\00A0\2663";
+}
+.card.rank-5.clubs .suit:after {
+    content: "\2663\00A0\00A0\00A0\2663 \A\2663 \A\2663\00A0\00A0\00A0\2663";
+}
+.card.rank-6.clubs .suit:after {
+    content: "\2663\00A0\00A0\00A0\2663 \A\2663\00A0\00A0\00A0\2663 \A\2663\00A0\00A0\00A0\2663";
+}
+.card.rank-7.clubs .suit:after {
+    content: "\2663\00A0\00A0\2663 \A\2663\00A0\2663\00A0\2663 \A\2663\00A0\00A0\2663";
+}
+.card.rank-8.clubs .suit:after {
+    content: "\2663\00A0\2663\00A0\2663 \A\2663\00A0\00A0\2663 \A\2663\00A0\2663\00A0\2663";
+}
+.card.rank-9.clubs .suit:after {
+    content: "\2663\00A0\2663\00A0\2663 \A\2663\00A0\2663\00A0\2663 \A\2663\00A0\2663\00A0\2663";
+}
+.card.rank-10.clubs .suit:after {
+    content: "\2663\00A0\2663\00A0\2663 \A\2663\00A0\2663\00A0\2663\00A0\2663 \A\2663\00A0\2663\00A0\2663";
+}
+
+ .card.rank-j.diams  { background-image: url(faces/JD.gif); }
+ .card.rank-j.hearts { background-image: url(faces/JH.gif); }
+ .card.rank-j.spades { background-image: url(faces/JS.gif); }
+ .card.rank-j.clubs  { background-image: url(faces/JC.gif); }
+
+ .card.rank-q.diams  { background-image: url(faces/QD.gif); }
+ .card.rank-q.hearts { background-image: url(faces/QH.gif); }
+ .card.rank-q.spades { background-image: url(faces/QS.gif); }
+ .card.rank-q.clubs  { background-image: url(faces/QC.gif); }
+
+ .card.rank-k.diams  { background-image: url(faces/KD.gif); }
+ .card.rank-k.hearts { background-image: url(faces/KH.gif); }
+ .card.rank-k.spades { background-image: url(faces/KS.gif); }
+ .card.rank-k.clubs  { background-image: url(faces/KC.gif); }
+
+
+
+
+
+
